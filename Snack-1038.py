@@ -1,0 +1,7 @@
+
+items = {1:4.00, 2:4.50, 3:5.00, 4:2.00, 5:1.50}
+entrada = input().split()
+x = int(entrada[0])
+y = int(entrada[1])
+total = items[x] * y
+print(f'Total: R$ {total:.2f}')
